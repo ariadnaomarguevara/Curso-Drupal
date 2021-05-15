@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'c27e63dc56ee3564b8bfa371b88d5ffc2c3e2d9d',
+    'reference' => '450fd47fb13f6413900eb7fb04f6d2ac026d3de2',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -570,6 +570,15 @@ private static $installed = array (
         0 => '9.1.8',
       ),
     ),
+    'drupal/entity_browser' => 
+    array (
+      'pretty_version' => '2.5.0',
+      'version' => '2.5.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.5',
+    ),
     'drupal/entity_reference' => 
     array (
       'replaced' => 
@@ -847,7 +856,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'c27e63dc56ee3564b8bfa371b88d5ffc2c3e2d9d',
+      'reference' => '450fd47fb13f6413900eb7fb04f6d2ac026d3de2',
     ),
     'drupal/responsive_image' => 
     array (
@@ -869,6 +878,24 @@ private static $installed = array (
       array (
         0 => '9.1.8',
       ),
+    ),
+    'drupal/search_api' => 
+    array (
+      'pretty_version' => '1.19.0',
+      'version' => '1.19.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.19',
+    ),
+    'drupal/search_api_db' => 
+    array (
+      'pretty_version' => '1.19.0',
+      'version' => '1.19.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
     ),
     'drupal/serialization' => 
     array (
