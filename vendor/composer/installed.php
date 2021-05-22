@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '4d39202f128959f741b756e4fb62d6f229ff3cc6',
+    'reference' => 'e78d69109ee2f172b8829a6bb7f4e051af423f44',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -37,6 +37,24 @@
       array (
       ),
       'reference' => '5f814e980b6f9cf1ca8c74cc9385c3d81090d388',
+    ),
+    'commerceguys/addressing' => 
+    array (
+      'pretty_version' => 'v1.2.1',
+      'version' => '1.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '311040bd78ea2ea82105dd1f17205c449ac8de47',
+    ),
+    'commerceguys/intl' => 
+    array (
+      'pretty_version' => 'v1.1.0',
+      'version' => '1.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '90b4f75c4917927a1960c0dcaa002a91ab97f5d5',
     ),
     'composer/installers' => 
     array (
@@ -223,6 +241,15 @@
         0 => '9.1.8',
       ),
     ),
+    'drupal/address' => 
+    array (
+      'pretty_version' => '1.9.0',
+      'version' => '1.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.9',
+    ),
     'drupal/admin_toolbar' => 
     array (
       'pretty_version' => '3.0.0',
@@ -345,6 +372,15 @@
       array (
         0 => '9.1.8',
       ),
+    ),
+    'drupal/commerce' => 
+    array (
+      'pretty_version' => '2.24.0',
+      'version' => '2.24.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.24',
     ),
     'drupal/config' => 
     array (
@@ -670,6 +706,15 @@
         0 => '9.1.8',
       ),
     ),
+    'drupal/entity' => 
+    array (
+      'pretty_version' => '1.2.0',
+      'version' => '1.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.2',
+    ),
     'drupal/entity_browser' => 
     array (
       'pretty_version' => '2.5.0',
@@ -780,6 +825,15 @@
       array (
         0 => '9.1.8',
       ),
+    ),
+    'drupal/inline_entity_form' => 
+    array (
+      'pretty_version' => '1.0.0-rc9',
+      'version' => '1.0.0.0-RC9',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0-rc9',
     ),
     'drupal/inline_form_errors' => 
     array (
@@ -953,6 +1007,15 @@
         0 => '9.1.8',
       ),
     ),
+    'drupal/profile' => 
+    array (
+      'pretty_version' => '1.2.0',
+      'version' => '1.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.2',
+    ),
     'drupal/quickedit' => 
     array (
       'replaced' => 
@@ -974,7 +1037,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4d39202f128959f741b756e4fb62d6f229ff3cc6',
+      'reference' => 'e78d69109ee2f172b8829a6bb7f4e051af423f44',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1056,6 +1119,15 @@
       array (
         0 => '9.1.8',
       ),
+    ),
+    'drupal/state_machine' => 
+    array (
+      'pretty_version' => '1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0',
     ),
     'drupal/statistics' => 
     array (
@@ -1380,8 +1452,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '^1.0',
+        0 => '^1.0',
+        1 => '1.0',
       ),
     ),
     'psr/event-dispatcher-implementation' => 
