@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '29139db943b3e68ee7a72849ef20ad59b7236b7a',
+    'reference' => '2c380f163d24e7bef33b434cc8ad843daa27e4ee',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -699,6 +699,15 @@ private static $installed = array (
         0 => '9.1.8',
       ),
     ),
+    'drupal/inline_entity_form' => 
+    array (
+      'pretty_version' => '1.0.0-rc9',
+      'version' => '1.0.0.0-RC9',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0-rc9',
+    ),
     'drupal/inline_form_errors' => 
     array (
       'replaced' => 
@@ -892,7 +901,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '29139db943b3e68ee7a72849ef20ad59b7236b7a',
+      'reference' => '2c380f163d24e7bef33b434cc8ad843daa27e4ee',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1390,12 +1399,12 @@ private static $installed = array (
     ),
     'symfony/css-selector' => 
     array (
-      'pretty_version' => 'v4.4.22',
-      'version' => '4.4.22.0',
+      'pretty_version' => 'v4.4.24',
+      'version' => '4.4.24.0',
       'aliases' => 
       array (
       ),
-      'reference' => '01c77324d1d47efbfd7891f62a7c256c69330115',
+      'reference' => '947cacaf1b3a2af6f13a435392873d5ddaba5f70',
     ),
     'symfony/debug' => 
     array (
@@ -1417,12 +1426,12 @@ private static $installed = array (
     ),
     'symfony/dom-crawler' => 
     array (
-      'pretty_version' => 'v4.4.20',
-      'version' => '4.4.20.0',
+      'pretty_version' => 'v4.4.24',
+      'version' => '4.4.24.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'be133557f1b0e6672367325b508e65da5513a311',
+      'reference' => 'fc0bd1f215b0cd9f4efdc63bb66808f3417331bc',
     ),
     'symfony/error-handler' => 
     array (
@@ -1469,12 +1478,12 @@ private static $installed = array (
     ),
     'symfony/finder' => 
     array (
-      'pretty_version' => 'v4.4.23',
-      'version' => '4.4.23.0',
+      'pretty_version' => 'v4.4.24',
+      'version' => '4.4.24.0',
       'aliases' => 
       array (
       ),
-      'reference' => '67b77716f517e3f864759232e1201e7aa2ab0e82',
+      'reference' => 'a96bc19ed87c88eec78e1a4c803bdc1446952983',
     ),
     'symfony/http-client-contracts' => 
     array (
