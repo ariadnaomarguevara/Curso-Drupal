@@ -1,0 +1,4 @@
+administer prueba configuration:
+  title: 'Administer prueba configuration'
+  description: 'Optional description.'
+  restrict access: true
