@@ -51,6 +51,10 @@ class ExampleBlock extends BlockBase {
     $build['content'] = [
       '#markup' => $this->t('It works!'),
     ];
+    $variable1 = 1;
+    $variable2 = 2;
+    $variable3 = 3;
+
     return $build;
   }
 

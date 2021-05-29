@@ -8,3 +8,34 @@
  * This file is no longer required in Drupal 8.
  * @see https://www.drupal.org/node/2217931
  */
+
+ /**
+ * Implements hook_block_access().
+ */
+ 
+ function prueba_block_access(\Drupal\block\Entity\Block $block, $operation, \Drupal\Core\Session\AccountInterface $account) {
+  $variable1 = 0;
+  if ($operation == 'view' && $block->getPluginId() == 'prueba_example') {
+    $variable2 = 0;
+    $variable2++;
+    $nombre_usuario = \Drupal::currentUser()->getAccountName();
+  }
+ }
+
+ /**
+  * Implements hook_entity_create().
+  */
+ function prueba_entity_create(\Drupal\Core\Entity\EntityInterface $entity) {
+  \Drupal::logger('example')
+    ->info('Entity created: @label', [
+    '@label' => $entity
+      ->label(),
+  ]);
+ }
+
+  /**
+  * Implements funcion_prueba().
+  */
+ function prueba_conductor() {
+
+ }
