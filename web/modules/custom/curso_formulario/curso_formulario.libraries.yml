@@ -1,0 +1,10 @@
+# Custom module library for general purposes.
+curso_formulario:
+  js:
+    js/curso-formulario.js: {}
+  css:
+    component:
+      css/curso-formulario.css: {}
+  dependencies:
+    - core/drupalSettings
+    - curso_formulario/jquery-labelauty

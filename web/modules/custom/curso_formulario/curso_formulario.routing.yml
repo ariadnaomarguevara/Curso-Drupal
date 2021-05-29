@@ -1,0 +1,15 @@
+curso_formulario.example:
+  path: '/curso-formulario/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\curso_formulario\Controller\CursoFormularioController::build'
+  requirements:
+    _permission: 'administer curso_formulario configuration'
+
+curso_formulario.settings_form:
+  path: '/admin/config/system/curso-formulario'
+  defaults:
+    _title: 'Curso Formulario settings'
+    _form: 'Drupal\curso_formulario\Form\SettingsForm'
+  requirements:
+    _permission: 'administer curso_formulario configuration'

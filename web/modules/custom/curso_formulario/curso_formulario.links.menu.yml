@@ -1,0 +1,6 @@
+curso_formulario.settings_form:
+  title: Curso Formulario
+  description: Configure Curso Formulario.
+  parent: system.admin_config_system
+  route_name: curso_formulario.settings_form
+  weight: 10

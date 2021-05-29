@@ -1,0 +1,4 @@
+administer curso_formulario configuration:
+  title: 'Administer curso_formulario configuration'
+  description: 'Optional description.'
+  restrict access: true

@@ -1,0 +1,6 @@
+name: Curso Formulario
+type: module
+description: Modulo de ejemplo para uso de formularios
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
