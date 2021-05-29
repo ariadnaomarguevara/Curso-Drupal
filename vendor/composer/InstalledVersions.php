@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'a378f15626d75bc12e36d0eecc9937caa2391470',
+    'reference' => '04474811b6af00357b03a118515c1fd8bbe51e65',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -1133,7 +1133,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'a378f15626d75bc12e36d0eecc9937caa2391470',
+      'reference' => '04474811b6af00357b03a118515c1fd8bbe51e65',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1419,6 +1419,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '53330f47520498c0ae1f61f7e2c90f55690c06a3',
+    ),
+    'kint-php/kint' => 
+    array (
+      'pretty_version' => '3.3',
+      'version' => '3.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '335ac1bcaf04d87df70d8aa51e8887ba2c6d203b',
     ),
     'laminas/laminas-diactoros' => 
     array (

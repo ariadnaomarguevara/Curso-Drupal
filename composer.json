@@ -34,7 +34,8 @@
         "drupal/search_api_db": "^1.19",
         "drupal/token": "^1.9",
         "drupal/webform": "^6.0",
-        "drush/drush": "^10.5"
+        "drush/drush": "^10.5",
+        "kint-php/kint": "^3.3"
     },
     "conflict": {
         "drupal/drupal": "*"

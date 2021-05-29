@@ -31,6 +31,8 @@ class PageExampleController extends ControllerBase {
    * appropriate blocks, navigation, and styling.
    */
   public function simple() {
+    dpm(\Drupal::service('current_user'), 'current_user');
+
     return [
       '#markup' => '<p>' . $this->t('Simple page: The quick brown fox jumps over the lazy dog.') . '</p>',
     ];
@@ -64,6 +66,9 @@ class PageExampleController extends ControllerBase {
    *   If the parameters are invalid.
    */
   public function arguments($first, $second) {
+    dpm($first);
+    dpm($second);
+
     // Make sure you don't trust the URL to be safe! Always check for exploits.
     if (!is_numeric($first) || !is_numeric($second)) {
       // We will just show a standard "access denied" page in this case.
