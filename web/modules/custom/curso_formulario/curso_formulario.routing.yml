@@ -1,7 +1,7 @@
 curso_formulario.example:
   path: '/curso-formulario/example'
   defaults:
-    _title: 'Example'
+    _title: 'Pagina de prueba'
     _controller: '\Drupal\curso_formulario\Controller\CursoFormularioController::build'
   requirements:
     _permission: 'administer curso_formulario configuration'
@@ -13,3 +13,19 @@ curso_formulario.settings_form:
     _form: 'Drupal\curso_formulario\Form\SettingsForm'
   requirements:
     _permission: 'administer curso_formulario configuration'
+
+curso_formulario.form_curso:
+  path: '/curso-formulario/curso'
+  defaults:
+    _title: 'Inscripcion al Curso de Drupal'
+    _form: 'Drupal\curso_formulario\Form\CursoForm'
+  requirements:
+    _permission: 'access content'
+
+curso_formulario.service:
+  path: '/curso-formulario/service'
+  defaults:
+    _title: 'Service'
+    _form: 'Drupal\curso_formulario\Form\ServiceForm'
+  requirements:
+    _permission: 'access content'

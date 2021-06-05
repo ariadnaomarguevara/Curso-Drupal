@@ -38,6 +38,13 @@ function curso_formulario_schema() {
         'default' => 0,
         'description' => 'The {users}.uid of the user who created the record.',
       ],
+      'descripcion' => [
+        'description' => 'The identifier of the data.',
+        'type' => 'varchar_ascii',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
       'created' => [
         'type' => 'int',
         'not null' => TRUE,
@@ -46,6 +53,67 @@ function curso_formulario_schema() {
       ],
     ],
     'primary key' => ['id'],
+    'foreign keys' => [
+      'users' => [
+        'table' => 'users',
+        'columns' => [
+          'uid' => 'uid',
+        ],
+      ],
+    ],
+  ];
+
+  $schema['users_data'] = [
+    'description' => 'Stores module data as key/value pairs per user.',
+    'fields' => [
+      'uid' => [
+        'description' => 'The {users}.uid this record affects.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+      'module' => [
+        'description' => 'The name of the module declaring the variable.',
+        'type' => 'varchar_ascii',
+        'length' => DRUPAL_EXTENSION_NAME_MAX_LENGTH,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'name' => [
+        'description' => 'The identifier of the data.',
+        'type' => 'varchar_ascii',
+        'length' => 128,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'value' => [
+        'description' => 'The value.',
+        'type' => 'blob',
+        'not null' => FALSE,
+        'size' => 'big',
+      ],
+      'serialized' => [
+        'description' => 'Whether value is serialized.',
+        'type' => 'int',
+        'size' => 'tiny',
+        'unsigned' => TRUE,
+        'default' => 0,
+      ],
+    ],
+    'primary key' => [
+      'uid',
+      'module',
+      'name',
+    ],
+    'foreign keys' => [
+      'users' => [
+        'table' => 'users',
+        'columns' => [
+          'uid' => 'uid',
+        ],
+      ],
+    ],
   ];
 
   return $schema;
