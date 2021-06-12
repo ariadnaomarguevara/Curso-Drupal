@@ -1,0 +1,5 @@
+entity.curso_config.overview:
+  title: curso_configs
+  parent: system.admin_structure
+  description: 'List of curso_configs to extend site functionality.'
+  route_name: entity.curso_config.collection

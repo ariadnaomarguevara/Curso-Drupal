@@ -1,0 +1,14 @@
+curso_config.curso_config.*:
+  type: config_entity
+  label: curso_config
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    uuid:
+      type: string
+    description:
+      type: string

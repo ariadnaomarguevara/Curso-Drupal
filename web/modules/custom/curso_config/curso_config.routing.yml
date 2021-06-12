@@ -1,0 +1,31 @@
+entity.curso_config.collection:
+  path: '/admin/structure/curso-config'
+  defaults:
+    _entity_list: 'curso_config'
+    _title: 'curso_config configuration'
+  requirements:
+    _permission: 'administer curso_config'
+
+entity.curso_config.add_form:
+  path: '/admin/structure/curso_config/add'
+  defaults:
+    _entity_form: 'curso_config.add'
+    _title: 'Add a curso_config'
+  requirements:
+    _permission: 'administer curso_config'
+
+entity.curso_config.edit_form:
+  path: '/admin/structure/curso-config/{curso_config}'
+  defaults:
+    _entity_form: 'curso_config.edit'
+    _title: 'Edit a curso_config'
+  requirements:
+    _permission: 'administer curso_config'
+
+entity.curso_config.delete_form:
+  path: '/admin/structure/curso-config/{curso_config}/delete'
+  defaults:
+    _entity_form: 'curso_config.delete'
+    _title: 'Delete a curso_config'
+  requirements:
+    _permission: 'administer curso_config'
