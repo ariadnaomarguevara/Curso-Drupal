@@ -1,0 +1,13 @@
+administer curso_content:
+  title: 'Administer curso_content settings'
+  restrict access: true
+access curso_content overview:
+  title: 'Access curso_content overview page'
+delete curso_content:
+  title: Delete curso_content
+create curso_content:
+  title: Create curso_content
+view curso_content:
+  title: View curso_content
+edit curso_content:
+  title: Edit curso_content

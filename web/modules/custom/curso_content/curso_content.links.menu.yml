@@ -1,0 +1,10 @@
+entity.curso_content.settings:
+  title: curso_content
+  description: Configure a curso_content entity type
+  route_name:  entity.curso_content.settings
+  parent: system.admin_structure
+entity.curso_content.collection:
+  title: curso_contents
+  description: List of curso_contents
+  route_name: entity.curso_content.collection
+  parent: system.admin_content

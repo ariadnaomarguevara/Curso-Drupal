@@ -1,0 +1,7 @@
+entity.curso_content.settings:
+  path: 'admin/structure/curso-content'
+  defaults:
+    _form: '\Drupal\curso_content\Form\CursoContentSettingsForm'
+    _title: 'curso_content'
+  requirements:
+    _permission: 'administer curso_content'
