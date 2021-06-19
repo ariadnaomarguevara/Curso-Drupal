@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '04474811b6af00357b03a118515c1fd8bbe51e65',
+    'reference' => '9b8cbd517f83416e250111fdd27e13c2dca15b76',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -945,6 +945,15 @@ private static $installed = array (
         0 => '9.1.8',
       ),
     ),
+    'drupal/jsonapi_extras' => 
+    array (
+      'pretty_version' => '3.17.0',
+      'version' => '3.17.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.17',
+    ),
     'drupal/language' => 
     array (
       'replaced' => 
@@ -1133,7 +1142,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '04474811b6af00357b03a118515c1fd8bbe51e65',
+      'reference' => '9b8cbd517f83416e250111fdd27e13c2dca15b76',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1148,6 +1157,15 @@ private static $installed = array (
       array (
         0 => '9.1.8',
       ),
+    ),
+    'drupal/restui' => 
+    array (
+      'pretty_version' => '1.20.0',
+      'version' => '1.20.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.20',
     ),
     'drupal/search' => 
     array (
@@ -1357,6 +1375,15 @@ private static $installed = array (
       ),
       'reference' => '3fd9f7e62ffb7f221e4be8151a738529345d22d5',
     ),
+    'e0ipso/shaper' => 
+    array (
+      'pretty_version' => '1.2.4',
+      'version' => '1.2.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7d73018ec4fe8de9730dfe755067cc02460e1a38',
+    ),
     'egulias/email-validator' => 
     array (
       'pretty_version' => '2.1.22',
@@ -1419,6 +1446,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '53330f47520498c0ae1f61f7e2c90f55690c06a3',
+    ),
+    'justinrainbow/json-schema' => 
+    array (
+      'pretty_version' => '5.2.10',
+      'version' => '5.2.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b',
     ),
     'kint-php/kint' => 
     array (

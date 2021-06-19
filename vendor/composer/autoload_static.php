@@ -92,6 +92,8 @@ class ComposerStaticInitaf3be6904d715d9a750cee02fbb5a6aa
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Stecman\\Component\\Symfony\\Console\\BashCompletion\\' => 49,
+            'Shaper\\Tests\\' => 13,
+            'Shaper\\' => 7,
             'SelfUpdate\\' => 11,
         ),
         'R' => 
@@ -122,6 +124,10 @@ class ComposerStaticInitaf3be6904d715d9a750cee02fbb5a6aa
         'K' => 
         array (
             'Kint\\' => 5,
+        ),
+        'J' => 
+        array (
+            'JsonSchema\\' => 11,
         ),
         'I' => 
         array (
@@ -339,6 +345,14 @@ class ComposerStaticInitaf3be6904d715d9a750cee02fbb5a6aa
         array (
             0 => __DIR__ . '/..' . '/stecman/symfony-console-completion/src',
         ),
+        'Shaper\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/e0ipso/shaper/tests/src',
+        ),
+        'Shaper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/e0ipso/shaper/src',
+        ),
         'SelfUpdate\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/self-update/src',
@@ -399,6 +413,10 @@ class ComposerStaticInitaf3be6904d715d9a750cee02fbb5a6aa
         'Kint\\' => 
         array (
             0 => __DIR__ . '/..' . '/kint-php/kint/src',
+        ),
+        'JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
         'Interop\\Container\\' => 
         array (
