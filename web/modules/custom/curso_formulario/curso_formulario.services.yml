@@ -1,0 +1,6 @@
+services:
+  curso_formulario.example:
+    class: Drupal\curso_formulario\Example
+
+  curso_formulario.dependecia:
+    class: Drupal\curso_formulario\Dependecia
