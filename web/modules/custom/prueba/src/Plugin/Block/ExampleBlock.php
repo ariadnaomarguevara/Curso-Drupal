@@ -4,6 +4,7 @@ namespace Drupal\prueba\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Url;
 
 /**
  * Provides an example block.
@@ -48,12 +49,28 @@ class ExampleBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    $build['content'] = [
-      '#markup' => $this->t('It works!'),
+    $var1 = "Hola";
+    $var2 = "Pepito";
+    $var3 = "Perez";
+
+    $build = [
+      '#theme' => 'templatePrueba',
+      '#var1' => $var1,
+      '#var2' => $var2,
+      '#var3' => $var3,
+      '#cache' => [
+        'max-age' => 0,
+      ],
+      '#attached' => [
+        'library' => [
+          'prueba/prueba',
+        ],
+        'drupalSettings' => [
+          'var' => $var1
+        ],
+      ],
+
     ];
-    $variable1 = 1;
-    $variable2 = 2;
-    $variable3 = 3;
 
     return $build;
   }

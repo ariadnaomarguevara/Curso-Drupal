@@ -33,6 +33,29 @@
   ]);
  }
 
+ function prueba_theme() {
+  return [
+    'templatePrueba' => [
+      'variables' => [
+        'var1' => NULL,
+        'var2' => NULL,
+        'var3' => NULL,
+      ],
+      'template' => 'template-block-prueba',
+    ],
+
+    'templatePrueba2' => [
+      'variables' => [
+        'var1' => NULL,
+        'var2' => NULL,
+        'var3' => NULL,
+      ],
+      'template' => 'template-block-prueba-2',
+    ],
+
+  ];
+ }
+
   /**
   * Implements funcion_prueba().
   */
