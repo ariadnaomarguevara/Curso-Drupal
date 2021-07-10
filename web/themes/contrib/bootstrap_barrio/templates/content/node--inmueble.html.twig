@@ -70,6 +70,7 @@
     not node.isPublished() ? 'node--unpublished',
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
     'clearfix',
+    'inmuebles',
   ]
 %}
 <article{{ attributes.addClass(classes) }}>
@@ -92,7 +93,7 @@
         {{ metadata }}
       </div>
     {% endif %}
-    <h3>Inmueble</h3>
+    <h3>{{ 'Inmueble'|upper }}</h3>
   </header>
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
     {{ content }}

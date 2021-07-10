@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '9d7b9297679febff3c2829a414efd5fcac46c2ba',
+    'reference' => 'f5a4e14b929011494a5b020b6c8f2e128624f63a',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -368,6 +368,15 @@
       array (
         0 => '9.1.8',
       ),
+    ),
+    'drupal/block_visibility_groups' => 
+    array (
+      'pretty_version' => '1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.4',
     ),
     'drupal/book' => 
     array (
@@ -953,6 +962,15 @@
         0 => '9.1.8',
       ),
     ),
+    'drupal/layout_builder_component_attributes' => 
+    array (
+      'pretty_version' => '1.2.1',
+      'version' => '1.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1.2.1',
+    ),
     'drupal/layout_discovery' => 
     array (
       'replaced' => 
@@ -1097,6 +1115,15 @@
         0 => '9.1.8',
       ),
     ),
+    'drupal/pathauto' => 
+    array (
+      'pretty_version' => '1.8.0',
+      'version' => '1.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.8',
+    ),
     'drupal/profile' => 
     array (
       'pretty_version' => '1.2.0',
@@ -1127,7 +1154,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '9d7b9297679febff3c2829a414efd5fcac46c2ba',
+      'reference' => 'f5a4e14b929011494a5b020b6c8f2e128624f63a',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1512,6 +1539,15 @@
       array (
       ),
       'reference' => '9227822783c75406cfe400984b2f095cdf03d417',
+    ),
+    'neilime/php-css-lint' => 
+    array (
+      'pretty_version' => 'v3.0.0',
+      'version' => '3.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5dc9dd1d3238d29a9ff210cd7d934cfee00e5e96',
     ),
     'nikic/php-parser' => 
     array (

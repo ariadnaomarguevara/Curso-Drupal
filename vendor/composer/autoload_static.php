@@ -169,6 +169,7 @@ class ComposerStaticInitaf3be6904d715d9a750cee02fbb5a6aa
         ),
         'C' => 
         array (
+            'CssLint\\' => 8,
             'Consolidation\\SiteProcess\\' => 26,
             'Consolidation\\SiteAlias\\' => 24,
             'Consolidation\\OutputFormatters\\' => 31,
@@ -524,6 +525,10 @@ class ComposerStaticInitaf3be6904d715d9a750cee02fbb5a6aa
             1 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
             2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
             3 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
+        ),
+        'CssLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/neilime/php-css-lint/src/CssLint',
         ),
         'Consolidation\\SiteProcess\\' => 
         array (

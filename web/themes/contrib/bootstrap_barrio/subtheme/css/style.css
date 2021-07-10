@@ -2,3 +2,7 @@
  * @file
  * Subtheme specific CSS.
  */
+
+ .navbar a, .navbar .link {
+  color: #FFFFFF;
+}
